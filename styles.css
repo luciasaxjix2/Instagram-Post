@@ -1,44 +1,48 @@
-body {
-    background-color: black;
+body{
+    background: rgb(204, 183, 204);
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 10%;
+    padding: 10;
     box-sizing: border-box;
-    
 }
 
-.post {
-    border: 1px solid black;
-    display: flex;
+div.post{
+    background: white;
+    border: 1px solid rgb(121, 116, 116);
     flex-direction: column;
     height: 100%;
     width: 100%;
-    justify-content: center;
-    align-content: center;
-    background-color: white;
 }
 
+div.conteiner{
+    width: 500px;
+}
 .header{
     width: 100%;
-    border: 1px solid green;
-    display: inline-flex;
+    display:inline-flex;
     flex-flow: row nowrap;
     padding: 8px;
 }
 
-.icon-ellipse{
-    width: 50%;
+.logo {
     display: flex;
-    flex-direction: row;
-    justify-content: end;
     align-items: center;
-    padding: 0px 5px 0px 0px;
-    border: 2px solid ;
-
+}
+.html {
+    font-size: 200%;
+}
+.foorter{
+    height: 200%;
 }
 
-.tittle{
-    width: 50%;
-    border: 2px solid red;
+.imagen img{
+    height: auto;
+    width: 98%;
+    margin: auto;
+    padding: auto;
+
+}
+.iconos{
+   font-size: 100%;
 }
